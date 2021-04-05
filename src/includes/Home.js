@@ -2,12 +2,16 @@ import React from 'react'
 
 import { UncontrolledAlert } from 'reactstrap';
 
-function Example() {
+function Home() {
   return (
-    <UncontrolledAlert color="info">
-      I am an alert and I can be dismissed!
-    </UncontrolledAlert>
+    <div>
+      <UncontrolledAlert color="info">
+        I am an alert and I can be dismissed!
+      </UncontrolledAlert>
+
+      <h1>yassine</h1>
+    </div>
   );
 }
 
-export default Example;
+export default Home;
